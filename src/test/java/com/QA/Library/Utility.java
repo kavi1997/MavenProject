@@ -19,7 +19,7 @@ public class Utility {
 
 	public static void initialisation(String browser, String url) {
 		if (browser.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "src/test/resources/Testsuite/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "usr/bin/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("Firefox")) {
 			System.setProperty("webdriver.gecko.driver", "src/test/resources/Testsuite/geckodriver.exe");
